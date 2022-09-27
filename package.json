@@ -1,0 +1,29 @@
+{
+  "name": "exercicio1",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/routes/api_routes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jujucasseb/nodejs-parte1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jujucasseb/nodejs-parte1/issues"
+  },
+  "homepage": "https://github.com/jujucasseb/nodejs-parte1#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.3.0",
+    "pg": "^8.8.0"
+  }
+}
